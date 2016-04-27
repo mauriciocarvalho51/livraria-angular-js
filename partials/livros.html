@@ -1,0 +1,58 @@
+﻿<div class="container">
+	
+	<h2>{{livrosValue}}</h2>
+	<h4 ng-click="changeLang()">Idioma</h4>
+	
+	<div class="table-responsive">
+		<table class="table table-striped table-hover">
+		
+			<tr class="info" >
+				<th>Título</th>
+				<th>Autor</th>
+				<th>Editora</th>
+				<th>Opções</th>
+			</tr>
+			
+			<tr ng-repeat="livro in listLivros" >
+				<td>{{livro.titulo}}</td>
+				<td>{{livro.autor}}</td>
+				<td>{{livro.editora}}</td>
+				<td>
+					<a href="#" ng-click="selectEdit(livro)"><img src="img/iconeditar.png" /></a> 
+					<a href="#" ng-click="del(livro)"><img src="img/iconremover.png" /></a>					
+				</td>
+			</tr>
+				
+		</table>
+	</div>	 
+
+	<form id="formlivro" name="formlivro" method="post" >
+		<div class="form-group">
+			<label>Título:</label>
+			<input class="form-control" placeholder="nome do livro" type="text" ng-model="current.titulo" value="{{current.titulo}}" />
+		</div>
+		
+		<div class="form-group">
+			<label>Autor:</label>
+			<input class="form-control" id="autor" placeholder="nome do autor" type="text" ng-model="current.autor" value="{{current.autor}}" />
+		</div>			
+		
+		<div class="form-group">
+			<label>Editora:</label>
+			<input class="form-control" id="editora" placeholder="nome da editora" type="text" ng-model="current.editora" value="{{current.editora}}" />
+		</div>
+		
+		<div class="form-group">
+			<label>Arquivo:</label>
+			<input type="file" >
+			<p class="help-block" >Máximo 100MB</p>
+		</div>
+		
+		<button class="btn btn-primary" ng-click="add(current)">ADICIONAR</button>
+		<button class="btn btn-primary" ng-click="save(livro)">SALVAR</button>
+		<button class="btn btn-primary" ng-click="addZadig()">ADICIONAR ZADIG</button>
+				
+		
+	</form>
+	
+</div>

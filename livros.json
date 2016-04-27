@@ -1,0 +1,19 @@
+{
+	"livros": [
+		{
+			"nome": "Fausto",
+			"autor": "Goethe",
+			"editora": "L&PM pocket"
+		},
+		{
+			"nome": "Irmãos Karamazóv",
+			"autor": "F.Dostoiévysk",
+			"editora": "Compania de bolso"
+		},
+		{
+			"nome": "Assim falou Zaratustra",
+			"autor": "F.Nietzsche",
+			"editora": "L&PM pocket"
+		}
+	]
+}

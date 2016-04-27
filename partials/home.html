@@ -1,0 +1,43 @@
+﻿<header>
+<div class="collapse navbar-collapse" ng-controller="MenuBarController">
+    <ul class="nav navbar-nav">
+        <li ng-class="{ active: isActive('/')}"><a href="/">Home</a></li>
+        <li ng-class="{ active: isActive('/livros')}"><a href="/livros">Livros</a></li>
+        <li ng-class="{ active: isActive('/autores')}"><a href="/autores">Autores</a></li>
+    </ul>
+</div>
+
+</header>
+
+<section class="main" > 
+
+		<div ng-controller="divcontroller" >
+				
+				<h1>Meu projeto nº {{name}} </h1>
+				<input ng-model="newname" placeholder="digite novo nome" ></input>
+				<button ng-click="atualizarNome(newname)" >ATUALIZAR NOME</button>
+			 
+			 </div>
+			 <div ng-controller="divdois" >
+			 
+				<h2>Meu nome é: {{name}}</h2>
+			 
+			 </div>
+
+
+<div clas="container" >
+	<h2>Bem vindo pag princ</h2>
+	<a href="livros" >Livros</a>	
+	<a href="autores" >Autores</a></br>
+	
+	<button type="button" class="btn btn-link" href="livros" >Livros</button>
+	<button type="button" class="btn btn-primary" href="autores" >Autores</button>
+	
+</div>
+
+
+</section>
+
+<footer class="container" >
+	Faculdades Senac | 2016 | Tópicos avançados em ADS - desenvolvido em AngularJS
+</footer>

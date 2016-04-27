@@ -1,0 +1,64 @@
+{
+	"autores": [
+		{
+			"nome": "Goethe",
+			"nacionalidade": "Alemanha",
+			"descricao": "Romancista e filósofo"
+		},
+		{
+			"nome": "F.Dostoiévysk",
+			"nacionalidade": "Russia",
+			"descricao": "Escritor Russo"
+		},
+		{
+			"nome": "Sthendal",
+			"nacionalidade": "França",
+			"descricao": "Escreveu O vermelho e o negro"
+		},
+		{
+			"nome": "Kafka",
+			"nacionalidade": "Rep. Tcheca",
+			"descricao": "Judeu durante a 2ª guerra"
+		},
+		{
+			"nome": "Homero",
+			"nacionalidade": "Odisséia",
+			"descricao": "Autor desconhecido"
+		},
+		{
+			"nome": "Schopenhauer",
+			"nacionalidade": "Alemanha",
+			"descricao": "Século XVII"
+		},
+		{
+			"nome": "Machado de Assis",
+			"nacionalidade": "Brasil",
+			"descricao": "Fundador da academia brasileira de letras"
+		},
+		{
+			"nome": "Eça de Queiroz",
+			"nacionalidade": "Portugal",
+			"descricao": "Escritor lingua portuguesa"
+		},
+		{
+			"nome": "Lima Barreto",
+			"nacionalidade": "Brasil",
+			"descricao": "Escritor negro brasileiro"
+		},
+		{
+			"nome": "Sófocles",
+			"nacionalidade": "Grécia",
+			"descricao": "Tragédias"
+		},
+		{
+			"nome": "Charles Bukowski",
+			"nacionalidade": "EUA",
+			"descricao": "Estilo sujo"
+		},
+		{
+			"nome": "F.Nietzsche",
+			"nacionalidade": "Alemanha",
+			"descricao": "Desenvolveu a teoria além-homem"
+		}
+	]
+}
